@@ -1,0 +1,12 @@
+{
+  "name": "toggle-foundation",
+  "version": "1.1.1",
+  "title": "Foundation research toggle",
+  "author": "CramerC",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0", 
+    "space-age"
+  ],
+  "description": "Adds quickbar buttons that complete or remove foundation, landfill or cliff explosives research"
+}
