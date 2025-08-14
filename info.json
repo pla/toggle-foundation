@@ -6,7 +6,7 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0", 
-    "space-age"
+    "? space-age"
   ],
   "description": "Adds quickbar buttons that complete or remove foundation, landfill or cliff explosives research"
 }

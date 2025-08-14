@@ -35,9 +35,11 @@ script.on_event(defines.events.on_lua_shortcut, function(event)
     end
 end)
 
-script.on_event("toggle-foundation", function(event)
-    handle_foundation_toggle(event)
-end)
+if script.active_mods["space-age"] then
+	script.on_event("toggle-foundation", function(event)
+		handle_foundation_toggle(event)
+	end)
+end
 
 script.on_event("toggle-landfill", function(event)
     handle_landfill_toggle(event)

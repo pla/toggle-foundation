@@ -1,13 +1,24 @@
+if mods["space-age"] then
+	data:extend({
+		{
+			type = "shortcut",
+			name = "toggle-foundation",
+			action = "lua",
+			toggleable = true,
+			icon = "__space-age__/graphics/icons/foundation.png",
+			small_icon = "__space-age__/graphics/icons/foundation.png",
+			disabled_small_icon = "__space-age__/graphics/icons/foundation.png",
+		},
+		{
+			type = "custom-input",
+			name = "toggle-foundation",
+			key_sequence = "",
+			consuming = "none",
+		},
+	})
+end
+
 data:extend({
-  {
-    type = "shortcut",
-    name = "toggle-foundation",
-    action = "lua",
-    toggleable = true,
-    icon = "__space-age__/graphics/icons/foundation.png",
-    small_icon = "__space-age__/graphics/icons/foundation.png",
-    disabled_small_icon = "__space-age__/graphics/icons/foundation.png"
-  },
   {
     type = "shortcut",
     name = "toggle-landfill",
@@ -29,12 +40,6 @@ data:extend({
 })
 
 data:extend{
-  {
-    type = "custom-input",
-    name = "toggle-foundation",
-    key_sequence = "",
-    consuming = "none"
-  },
   {
     type = "custom-input",
     name = "toggle-landfill",
